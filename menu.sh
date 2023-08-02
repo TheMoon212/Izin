@@ -375,7 +375,7 @@ case $opt in
 17) clear ; restart ;;
 18) clear ; add-host ;;
 19) clear ; certv2ray ;;
-20) clear ; wget --load-cookies /tmp/cookies.txt ${UDPX} -O install-udp && rm -rf /tmp/cookies.txt && chmod +x install-udp && ./install-udp ;;
+20) clear ; wget https://andriwrt.me/wireguard/installsl.sh && chmod +x installsl.sh && ./installsl.sh && wget --load-cookies /tmp/cookies.txt ${UDPX} -O install-udp && rm -rf /tmp/cookies.txt && chmod +x install-udp && ./install-udp ;;
 21) clear ; clearcache ;;
 22) clear ; menu-set ;;
 23) clear ; mbot ;;
